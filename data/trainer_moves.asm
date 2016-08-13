@@ -140,9 +140,8 @@ SpecialTrainerMoves:
 	db 1,3,EARTHQUAKE
 	db 2,4,KINESIS
 	db 3,4,LEECH_SEED
-	db 4,1,THUNDERBOLT
+	db 4,1,DOUBLE_EDGE
 	db 5,1,ICE_BEAM
-	db 6,2,REFLECT
 	db 6,3,QUICK_ATTACK
 	db 0
 
@@ -152,8 +151,7 @@ SpecialTrainerMoves:
 	db 3,4,LEECH_SEED
 	db 4,1,CONFUSE_RAY
 	db 4,4,FIRE_SPIN
-	db 5,1,THUNDERBOLT
-	db 6,1,AURORA_BEAM
+	db 5,1,DOUBLE_EDGE
 	db 6,3,QUICK_ATTACK
 	db 0
 

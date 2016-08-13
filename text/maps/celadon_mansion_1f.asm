@@ -24,7 +24,7 @@ _CeladonMansion1Text2::
 
 _CeladonMansion1Text6::
 	text "Oh, you have an"
-	line "adorable PIKACHU"
+	line "adorable EEVEE"
 	cont "with you.@@"
 
 _CeladonMansion1Text7::
@@ -36,7 +36,7 @@ _CeladonMansion1Text7::
 _CeladonMansion1Text8::
 	text "Why don't you"
 	line "take more care"
-	cont "with PIKACHU?"
+	cont "with EEVEE?"
 	done
 
 _CeladonMansion1Text9::
@@ -46,12 +46,12 @@ _CeladonMansion1Text9::
 	done
 
 _CeladonMansion1Text10::
-	text "Your PIKACHU seems"
+	text "Your EEVEE seems"
 	line "tamed."
 	done
 
 _CeladonMansion1Text11::
-	text "Your PIKACHU looks"
+	text "Your EEVEE looks"
 	line "happy with you."
 	done
 

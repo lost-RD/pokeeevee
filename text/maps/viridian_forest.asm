@@ -69,7 +69,7 @@ _ViridianForestBattleTextPikaGirl::
 
 _ViridianForestEndBattleTextPikaGirl::
 	text "Oh no,"
-	line "really?"
+	line "me neither."
 	prompt
 
 _ViridianForestAfterBattleTextPikaGirl::

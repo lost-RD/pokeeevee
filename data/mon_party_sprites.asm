@@ -22,7 +22,7 @@ MonPartyData:
 	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED              ;Rattata/Raticate
 	dn SPRITE_BIRD_M, SPRITE_BIRD_M                    ;Spearow/Fearow
 	dn SPRITE_SNAKE, SPRITE_SNAKE                      ;Ekans/Arbok
-	dn SPRITE_PIKACHU_FAMILY, SPRITE_PIKACHU_FAMILY    ;Pikachu/Raichu
+	dn SPRITE_MON, SPRITE_MON                          ;Pikachu/Raichu
 	dn SPRITE_MON, SPRITE_MON                          ;Sandshrew/Sandslash
 	dn SPRITE_MON, SPRITE_MON                          ;NidoranF/Nidorina
 	dn SPRITE_MON, SPRITE_MON                          ;Nidoqueen/NidoranM
@@ -76,8 +76,8 @@ MonPartyData:
 	dn SPRITE_BUG, SPRITE_QUADRUPED                    ;Pinsir/Tauros
 	dn SPRITE_WATER, SPRITE_SNAKE                      ;Magikarp/Gyarados
 	dn SPRITE_WATER, SPRITE_MON                        ;Lapras/Ditto
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED              ;Eevee/Vaporeon
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED              ;Jolteon/Flareon
+	dn SPRITE_PIKACHU_FAMILY, SPRITE_PIKACHU_FAMILY    ;Eevee/Vaporeon
+	dn SPRITE_PIKACHU_FAMILY, SPRITE_PIKACHU_FAMILY    ;Jolteon/Flareon
 	dn SPRITE_MON, SPRITE_HELIX                        ;Porygon/Omanyte
 	dn SPRITE_HELIX, SPRITE_HELIX                      ;Omastar/Kabuto
 	dn SPRITE_HELIX, SPRITE_BIRD_M                     ;Kabutops/Aerodactyl

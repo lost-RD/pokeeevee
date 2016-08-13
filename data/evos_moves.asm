@@ -1363,11 +1363,14 @@ Mon133_EvosMoves:
 	db 0
 ;Learnset
 	db 8,SAND_ATTACK
-	db 16,GROWL
-	db 23,QUICK_ATTACK
-	db 30,BITE
-	db 36,FOCUS_ENERGY
-	db 42,TAKE_DOWN
+	db 10,SWIFT
+	db 13,QUICK_ATTACK
+	db 17,BITE
+	db 20,FOCUS_ENERGY
+	db 24,TAKE_DOWN
+	db 27,SLAM
+	db 30,HEADBUTT
+	db 35,DOUBLE_EDGE
 	db 0
 
 Mon136_EvosMoves:
@@ -1375,14 +1378,14 @@ Mon136_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,SAND_ATTACK
-	db 16,EMBER
-	db 23,QUICK_ATTACK
+	db 30,EMBER
 	db 30,BITE
-	db 36,FIRE_SPIN
-	db 42,SMOG
-	db 47,LEER
-	db 52,FLAMETHROWER
+	db 30,SMOKESCREEN
+	db 33,FIRE_SPIN
+	db 36,SMOG
+	db 40,FLAMETHROWER
+	db 43,BODY_SLAM
+	db 46,FIRE_BLAST
 	db 0
 
 Mon135_EvosMoves:
@@ -1390,14 +1393,14 @@ Mon135_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,SAND_ATTACK
-	db 16,THUNDERSHOCK
-	db 23,QUICK_ATTACK
+	db 30,THUNDERSHOCK
+	db 30,QUICK_ATTACK
 	db 30,DOUBLE_KICK
+	db 33,THUNDER_WAVE
 	db 36,PIN_MISSILE
-	db 42,THUNDER_WAVE
-	db 47,AGILITY
-	db 52,THUNDER
+	db 40,THUNDERBOLT
+	db 43,AGILITY
+	db 46,THUNDER
 	db 0
 
 Mon134_EvosMoves:
@@ -1405,15 +1408,14 @@ Mon134_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,SAND_ATTACK
-	db 16,WATER_GUN
-	db 23,QUICK_ATTACK
+	db 30,WATER_GUN
+	db 30,QUICK_ATTACK
 	db 30,BITE
-	db 36,AURORA_BEAM
-	db 42,HAZE
-	db 42,MIST
-	db 47,ACID_ARMOR
-	db 52,HYDRO_PUMP
+	db 33,AURORA_BEAM
+	db 36,WATERFALL
+	db 40,MIST
+	db 43,ACID_ARMOR
+	db 46,HYDRO_PUMP
 	db 0
 
 Mon066_EvosMoves:

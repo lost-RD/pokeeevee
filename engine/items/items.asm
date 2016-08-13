@@ -809,6 +809,7 @@ ItemUseEvoStone:
 	jr nc, .noEffect
 	callab IsThisPartymonStarterPikachu_Party
 	jr nc, .notPlayerPikachu
+	jr c, .notPlayerPikachu ; SUUUUPER legit way of allowing Eevee to evolve
 	ld e, $1b
 	callab PlayPikachuSoundClip
 	ld a, [wWhichPokemon]

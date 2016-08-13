@@ -14,7 +14,7 @@ dw EeveePicBack
 ; attacks known at lvl 0
 db TACKLE
 db TAIL_WHIP
-db 0
+db GROWL
 db 0
 db 0 ; growth rate
 ; learnset

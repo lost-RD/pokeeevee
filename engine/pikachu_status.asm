@@ -9,7 +9,7 @@ IsStarterPikachuInOurParty::
 	push hl
 	inc a
 	jr z, .noPlayerPikachu
-	cp PIKACHU + 1
+	cp EEVEE + 1
 	jr nz, .curMonNotPlayerPikachu
 	ld h, d
 	ld l, e
@@ -79,7 +79,7 @@ asm_fce21:
 	ld a, [wWhichPokemon]
 	call AddNTimes
 	ld a, [hl]
-	cp PIKACHU
+	cp EEVEE
 	jr nz, .notPlayerPikachu
 	ld bc, wPartyMon1OTID - wPartyMon1
 	add hl, bc

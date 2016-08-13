@@ -12,7 +12,7 @@ endm
 
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,   100, 35
 MoveEnd:
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,   100, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING, 100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,    85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,    85, 15
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,    85, 20
@@ -69,7 +69,7 @@ MoveEnd:
 	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,     80,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,    100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          95, ICE,      100, 10
-	move BLIZZARD,     FREEZE_SIDE_EFFECT,         120, ICE,       90,  5
+	move BLIZZARD,     FREEZE_SIDE_EFFECT,         120, ICE,       70,  5
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC,  100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,    100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,      100, 20
@@ -136,7 +136,7 @@ MoveEnd:
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,    70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,   100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,    85, 20
-	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,      85,  5
+	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,      70,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,    100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,   100, 20
