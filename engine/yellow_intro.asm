@@ -13,6 +13,7 @@ PlayIntroScene:
 	ld a, [wYellowIntroCurrentScene]
 	bit 7, a
 	jr nz, .go_to_title_screen
+	jr z, .go_to_title_screen ; temporary way to disable pikachu sequence
 	call JoypadLowSensitivity
 	ld a, [hJoyPressed]
 	and A_BUTTON | B_BUTTON | START
