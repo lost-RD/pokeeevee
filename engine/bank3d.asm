@@ -286,21 +286,21 @@ TitleScreenPikaBubbleTilemap:
 	db $57, $58, $59, $5a, $5b, $5c, $5d
 	db $6d, $5e, $5f, $60, $61, $62, $63
 
-TitleScreenPikachuTilemap:
+TitleScreenPikachuTilemap: 
 ; 12x9 (xy)
-	db $80, $81, $82, $83, $00, $00, $00, $00, $84, $85, $86, $87
-	db $88, $89, $8a, $8b, $8c, $8d, $8d, $8e, $8f, $8a, $90, $91
-	db $00, $92, $93, $8a, $8a, $8a, $8a, $8a, $8a, $94, $95, $00
-	db $00, $00, $97, $8a, $8a, $98, $99, $8a, $8a, $9a, $9b, $9c
-	db $00, $00, $9e, $9f, $a0, $a1, $a2, $a3, $a4, $a5, $a6, $8a
-	db $00, $a8, $a9, $aa, $8a, $ab, $ac, $8a, $ad, $ae, $af, $b0
-	db $00, $b2, $b3, $b4, $8a, $8a, $8a, $8a, $b5, $b6, $b7, $b8
-	db $00, $b9, $ba, $8a, $8a, $8a, $8a, $8a, $8a, $bb, $bc, $00
-	db $00, $00, $bd, $8a, $8a, $8a, $8a, $8a, $8a, $be, $bf, $00
+	db $00, $80, $81, $00, $00, $00, $00, $00, $00, $82, $83, $00
+	db $00, $84, $85, $86, $87, $88, $00, $89, $8a, $8b, $8c, $00
+	db $00, $00, $8d, $8e, $8f, $90, $91, $92, $93, $94, $00, $00
+	db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
+	db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
+	db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
+	db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
+	db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
+	db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
 
 PokemonLogoGraphics:	     INCBIN "gfx/pokemon_logo.2bpp"
 PokemonLogoGraphicsEnd:
-YellowLogoGraphics:	      INCBIN "gfx/yellow_titlescreen.2bpp"
+YellowLogoGraphics:	      INCBIN "gfx/eevee_titlescreen.2bpp"
 YellowLogoGraphicsEnd:
 
 INCLUDE "engine/menu/link_menu.asm"
